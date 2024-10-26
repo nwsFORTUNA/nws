@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box1 {
+    background-color: aqua;
+    grid-area: box1;
+}
+
+.box2 {
+    background-color: aqua;
+    grid-area: box2;
+}
+
+.box3 {
+    background-color: aqua;
+    grid-area: box3;
+}
+
+.box4 {
+    background-color: aqua;
+    grid-area: box4;
+}
+
+.box5 {
+    background-color: aqua;
+    grid-area: box5;
+}
+
+.box6 {
+    background-color: aqua;
+    grid-area: box6;
+}
+
+.box7 {
+    background-color: aqua;
+    grid-area: box7;
+}
+
+.box8 {
+    background-color: aqua;
+    grid-area: box8;
+}
+
+.box9 {
+    background-color: aqua;
+    grid-area: box9;
+}
+
+.box10 {
+    background-color: aqua;
+    grid-area: box10;
+}
+
+.box11 {
+    background-color: aqua;
+    grid-area: box11;
+}
+
+.box12 {
+    background-color: aqua;
+    grid-area: box12;
+}
+
+.box13 {
+    background-color: aqua;
+    grid-area: box13;
+background-image: url( https://t.me/c/2187462515/243);
+
+
+
+}
+
+.row {
+    width: 600px;
+    height: 500px;
+    display: grid;
+    grid-template-areas: "box1 box1 box2 box3 box4 box4"
+        "box1 box1 box2 box5 box6 box7"
+        "box8 box8 box9 box5 box10 box10"
+        "box11 box12 box9 box13 box10 box10";
+        grid-gap: 10px;
+}   
